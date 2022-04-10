@@ -1,0 +1,17 @@
+.hero-content{
+    text-align: center;
+    padding-top: 10%;
+}
+.all-hero{
+     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../../assets/img-1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 70vh;
+     background-position: center;
+}
+.hero-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

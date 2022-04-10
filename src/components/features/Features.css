@@ -1,0 +1,59 @@
+.all-features-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 7%;
+}
+.feature-right img{
+    width: 400px;
+}
+.check-1:last-child{
+    margin-bottom: 30px;
+}
+.check-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.check{
+    margin-top: 20px;
+}
+.check-1 p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.icon-check{
+    color: red;
+}
+.feature-text{
+    font-size: 14px;
+     
+}
+.feature-left h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+
+
+@media (max-width: 800px){
+    .all-features-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 7% 10px;
+        
+    }
+    .feature-right img{
+        width: 100%;
+    }
+    .container{
+        margin: 0 20px;
+    }
+    .feature-left h1{
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+}

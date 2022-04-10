@@ -1,0 +1,14 @@
+@media(max-width: 800px){
+    .footer-red-content{
+        grid-template-columns: 1fr;
+    }
+    .footer-red-right{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer-back-content{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}

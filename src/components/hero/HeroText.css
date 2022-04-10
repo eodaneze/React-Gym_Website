@@ -1,0 +1,27 @@
+
+.hero-text{
+    position: relative;
+}
+
+.hero-text h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    
+    
+   
+}
+.hero-text h2 span{
+    display: block;
+}
+.hero-text p{
+    color: #fff;
+    font-size: 14px;
+}
+
+
+@media(max-width: 600px){
+    .hero-text h2{
+        padding-top: 20%;
+    }
+}

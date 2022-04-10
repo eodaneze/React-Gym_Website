@@ -1,0 +1,152 @@
+.header-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin: 0 20px;
+}
+.all{
+    height: 150vh;
+}
+.all-contact{
+    background-color: #000;
+    padding-top: 6%;
+    height: 300px;
+   
+   
+}
+.left-header{
+    color: #fff;
+}
+.left-header h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.left-header p{
+    font-size: 13px;
+}
+.form-container{
+    width: 450px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 480px;
+  
+
+}
+.form-container h1{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.main-contact{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    position: relative;
+    top: 7rem;
+}
+.contact-img img{
+    width: 450px;
+    height: 480px;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+.input input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 15px 10px;
+  
+}
+input:focus,textarea:focus{
+    border-color: red;
+}
+.form .form-1{
+    width: 410px;
+}
+.form-1{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 15px 10px;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 410px;
+    height: 200px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+}
+a.btn-red{
+    transition: .30s ease;
+}
+a.btn-red:hover{
+    background-color: #000;
+}
+.contact-btn{
+    margin: 20px 10px;
+}
+
+
+@media(max-width:800px){
+    .main-contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         position: relative;
+         top: 3rem;
+     }
+     .form-container{
+        width: 100%;
+        margin: 0 20px;
+
+    }
+    .input{
+        grid-template-columns: 1fr;
+       
+     
+    }
+
+    textarea{
+        width: 100%;
+    }
+    .header-content{
+        grid-template-columns:  1fr;
+        gap: .5rem;
+        text-align: center;
+       
+    }
+    .left-header h1{
+        font-size: 25px;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+    .form .form-1{
+        width: 280px;
+       
+    }
+    textarea{
+        width: 280px;
+        height: 200px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border: 1px solid #ccc;
+      
+    }
+    .form-container{
+        width: 100%;
+    }
+    .all{
+        height: 202vh;
+    }
+}
+

@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+a.btn-red{
+    background-color: rgb(227,28,37);
+    padding: 8px 20px;
+    color: #fff;
+}
+a.btn-white{
+    background-color:#fff;
+    padding: 8px 20px;
+    color: red;
+}
+
+a.btn-dark{
+    background-color:#000;
+    padding: 8px 20px;
+    color: #fff;
+}
+.btn-white{
+    margin-left: 20px;
+}

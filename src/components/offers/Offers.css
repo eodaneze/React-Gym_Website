@@ -1,0 +1,33 @@
+.offer-header h1,.offer-header .text1{
+    text-align: center;
+}
+.feature-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.feature-main-content{
+    display: flex;
+    margin-top: 40px;
+}
+.feature-icon p{
+    color: red;
+}
+.feature-1 h3{
+    text-transform: uppercase;
+}
+.feature-1 p{
+    font-size: 12px;
+}
+.feature-1 img{
+    width: 100%;
+}
+.feature-1:nth-child(2){
+    margin: 0 30px;
+}
+
+@media(max-width: 800px){
+    .feature-main-content{
+        flex-direction: column;
+    }
+}

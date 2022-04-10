@@ -1,0 +1,76 @@
+.header h1{
+    color: #000;
+}
+.header p{
+    color: #000;
+}
+.pricing-content{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.price-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.price-1{
+    border: 1px solid #555;
+    width: 300px;
+    margin: 0 15px;
+}
+.title{
+    border-bottom: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.icon{
+    background-color: black;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 40%;
+    
+}
+.amount{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+}
+.amount sub{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+   
+}
+.fitness{
+    text-align: center;
+    padding: 20px 0;
+}
+.fitness p{
+    font-size: 13px;
+    line-height: 3;
+    color: #555;
+}
+.fitness p:nth-child(2),.fitness p:nth-child(3){
+    text-decoration: line-through;
+}
+.btn-price{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 800px){
+    .price-main{
+        flex-direction: column;
+    }
+}

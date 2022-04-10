@@ -1,0 +1,32 @@
+.all-build{
+    background-color: #000;
+    height: 400px;
+    margin-top: 7%;
+}
+.build-content{
+    text-align: center;
+    padding-top: 7%;
+}
+.build-content{
+    color: #fff;
+}
+.build-content h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.build-content h1 span{
+    display: block;
+}
+.build-content p{
+    font-size: 14px;
+}
+.build-btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.btn-red,a.btn-white{
+    font-size: 13px;
+}

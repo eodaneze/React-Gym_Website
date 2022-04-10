@@ -1,0 +1,78 @@
+.all-service{
+    background-color: black;
+    width: 100%;
+    margin-top: 7% ;
+    padding-bottom: 5%;
+    
+}
+.service-header{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+
+}
+.service-header h1{
+    text-transform: uppercase;
+}
+.service-box-content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-1{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(33, 32, 32, 0.68);
+    padding: 10px 20px;
+    transition: .30s ease;
+    cursor: pointer;
+   
+}
+.box-1:hover{
+    background-color: rgba(233, 20, 20, 0.889);
+}
+.box-1 h1,.box-2 h1{
+    color: #fff;
+    float: right;
+    opacity: .4;
+}
+.box-2{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(233, 20, 20, 0.889);
+   margin: 0 20px;
+   padding: 10px 20px;
+   cursor: pointer;
+   transition: .30s ease;
+}
+.box-2:hover{
+    background-color: rgba(33, 32, 32, 0.68);
+}
+
+.fit-icon{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box-1 h2,.box-2 h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.box-1 p,.box-2 p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 800px){
+    .service-box-content{
+        margin-top: 50px;
+        flex-direction: column;
+        
+    }
+}

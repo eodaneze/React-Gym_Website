@@ -1,0 +1,49 @@
+.main-content{
+   display: flex;
+   margin-top: 8%;
+   align-items: center;
+}
+.main-left img{
+    width: 400px;
+}
+.main-right{
+    margin-left: 20px;
+}
+.main-right h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.text{
+    font-size: 14px;
+}
+.main-sub-content{
+    display: flex;
+    margin-top: 30px;
+}
+.content-2{
+    margin-left: 10px;
+}
+.content-1 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main-btn{
+    margin-top: 30px;
+}
+@media(max-width:800px){
+    .main-content,.main-sub-content{
+        flex-direction: column;
+     }
+    .content-2{
+        margin-left: 0px;
+    }
+    .main-right h1{
+        font-size: 20px;
+    }
+   .content-1{
+       margin-bottom: 10px;
+   }
+  
+}
