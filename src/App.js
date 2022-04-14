@@ -6,7 +6,7 @@ import { Build, Contact, Features, Footer, Gallery, Hero, Main, Navbar, Offers, 
 
 function App() {
   return (
-     <div>
+     <div className='all-container'>
       
         <Navbar />
         <Hero />

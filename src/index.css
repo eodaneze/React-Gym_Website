@@ -4,7 +4,11 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+
 }
 html{
   scroll-behavior: smooth;
+}
+.all-container{
+  overflow-x: hidden;
 }

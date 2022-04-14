@@ -107,8 +107,12 @@
         100%{
             transform: translateX(-100%);
         }
+      
     }
     .nav-left img{
         width: 150px;
+    }
+    .search,.cart{
+          display: none;   
     }
 }
